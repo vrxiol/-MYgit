@@ -9,7 +9,7 @@ st.subheader("Dog")
 
 with col1:
     st.header('Dog1')
-    st.image("./ing/q.jpg")
+    st.image("./ing/q1.jpg")
 
 with col2:
     st.header('Dog2')
