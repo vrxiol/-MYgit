@@ -19,3 +19,13 @@ with col2:
 with col3:
     st.header('Dog3')
     st.image("./ing/e.jpg")
+
+html_7 = """
+<div style="background-color:#EC7063;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black">
+<center><h5>สถิติข้อมูลดอกไม้</h5></center>
+</div>
+"""
+st.markdown(html_7, unsafe_allow_html=True)
+st.markdown("")
+dt = pd.read_csv("./data/iris-3.csv")
+st.write(dt.head(10))
