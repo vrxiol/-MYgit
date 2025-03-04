@@ -35,4 +35,4 @@ if st.button("แสดงการจินตทัศน์ข้อมูล
    st.bar_chart(dx2)
    st.button("ไม่แสดงข้อมูล")
 else:
-    st.write("ไมแสดงข้อมูล")
+    st.write("ไม่แสดงข้อมูล")
