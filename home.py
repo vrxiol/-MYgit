@@ -54,7 +54,7 @@ pt_len = st.slider("กรุณาเลือกข้อมูล petal.lengt
 pt_wd = st.slider("กรุณาเลือกข้อมูล petal.width")
 
 sp_len = st.number_input("กรุณาเลือกข้อมูล sepal.length")
-sp_len = st.number_input("กรุณาเลือกข้อมูล sepal.width")
+sp_wd = st.number_input("กรุณาเลือกข้อมูล sepal.width")
 
 if st.button("ทำนายผล"):
     #st.write("ทำนาย")
