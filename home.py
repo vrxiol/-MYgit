@@ -45,3 +45,9 @@ html_8 = """
 
 st.markdown(html_8, unsafe_allow_html=True)
 st.markdown("")
+
+pt_len = st.slider_input("กรุณาเลือกข้อมูล petal.length")
+pt_wd = st.number_input("กรุณาเลือกข้อมูล petal.width")
+
+sp_len = st.number_input("กรุณาเลือกข้อมูล sepal.length")
+sp_len = st.number_input("กรุณาเลือกข้อมูล sepal.width")
