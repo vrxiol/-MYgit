@@ -12,3 +12,13 @@ html_7 = """
 <center><h5>สถิติข้อมูลดอกไม้</h5></center>
 </div>
 """
+
+st.markdown(html_7, unsafe_allow_html=True)
+st.markdown("")
+st.markdown("")
+
+st.subheader("ข้อมูลส่วนสุดท้าย 10 แถว")
+dt = pd.read_csv("./data/iris-3.csv")
+st.write(dt.head(10))
+st.subheader("ข้อมูลส่วนสุดท้าย 10 แถว")
+st.write(dt.tail(10))
